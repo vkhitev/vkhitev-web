@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Software development',
-    image: require('../../static/img/undraw_programming.svg').default,
+    image: '/img/undraw_programming.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Music',
-    image: require('../../static/img/undraw_compose_music.svg').default,
+    image: '/img/undraw_compose_music.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Sport',
-    image: require('../../static/img/undraw_healthy_habit.svg').default,
+    image: '/img/undraw_healthy_habit.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Traveling',
-    image: require('../../static/img/undraw_adventure.svg').default,
+    image: '/img/undraw_adventure.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -51,7 +51,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Mathematics',
-    image: require('../../static/img/undraw_mathematics.svg').default,
+    image: '/img/undraw_mathematics.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -61,7 +61,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Healthy lifestyle',
-    image: require('../../static/img/undraw_meditation.svg').default,
+    image: '/img/undraw_meditation.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -71,7 +71,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Reading',
-    image: require('../../static/img/undraw_book_lover.svg').default,
+    image: '/img/undraw_book_lover.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -81,7 +81,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Writing',
-    image: require('../../static/img/undraw_typewriter.svg').default,
+    image: '/img/undraw_typewriter.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -91,7 +91,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Teaching',
-    image: require('../../static/img/undraw_teaching.svg').default,
+    image: '/img/undraw_teaching.svg',
     description: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
