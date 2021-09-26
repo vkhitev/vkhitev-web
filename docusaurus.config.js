@@ -1,18 +1,16 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
-
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Vlad Khitev',
+  tagline: 'Software Engineer | Head of Front-End Chapter at Axon',
+  url: 'https://vkhitev.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  onBrokenMarkdownLinks: 'throw',
+  onDuplicateRoutes: 'throw',
+  favicon: 'img/logo.svg',
+  organizationName: 'vkhitev',
+  projectName: 'vkhitev-web',
 
   presets: [
     [
@@ -22,13 +20,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/vkhitev/vkhitev-web/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: 'https://github.com/vkhitev/vkhitev-web/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,7 +38,7 @@ module.exports = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Vlad Khitev',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -53,10 +50,14 @@ module.exports = {
             position: 'left',
             label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            to: '/contact',
+            label: 'Contact',
             position: 'right',
           },
         ],
@@ -65,50 +66,76 @@ module.exports = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Blog',
+                to: '/docs/intro',
+              },
+              {
+                label: 'About',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Contact',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Professional',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/vlad-khitev',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/vkhitev',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Media',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/vkhitev',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/profile.php?id=100011326866860',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/vkhitev',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Vlad Khitev`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        additionalLanguages: [
+          'kotlin',
+          'swift',
+          'java',
+          'haskell',
+          'php',
+          'csharp',
+          'groovy',
+          'http',
+          'clojure',
+          'makefile',
+          'mongodb',
+          'nginx',
+          'objectivec',
+          'scala',
+          'elm',
+          'dart',
+        ],
+        theme: require('prism-react-renderer/themes/vsDark'),
+        darkTheme: require('prism-react-renderer/themes/vsDark'),
       },
     }),
 }

@@ -1,13 +1,5 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 966px) {
@@ -20,4 +12,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.buttons > *:not(:last-child) {
+  margin-right: 8px;
+}
+
+.avatar {
+  border: 3px solid var(--ifm-background-color);
+  height: 144px;
+  width: 144px;
+}
+
+.link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: inherit;
 }

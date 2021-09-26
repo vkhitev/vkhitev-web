@@ -4,32 +4,92 @@ import styles from './HomepageFeatures.module.css'
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Software development',
+    Svg: require('../../static/img/undraw_programming.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Music',
+    Svg: require('../../static/img/undraw_compose_music.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Sport',
+    Svg: require('../../static/img/undraw_healthy_habit.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Traveling',
+    Svg: require('../../static/img/undraw_adventure.svg').default,
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Mathematics',
+    Svg: require('../../static/img/undraw_mathematics.svg').default,
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Healthy lifestyle',
+    Svg: require('../../static/img/undraw_meditation.svg').default,
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Reading',
+    Svg: require('../../static/img/undraw_book_lover.svg').default,
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Writing',
+    Svg: require('../../static/img/undraw_typewriter.svg').default,
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </>
+    ),
+  },
+  {
+    title: 'Teaching',
+    Svg: require('../../static/img/undraw_teaching.svg').default,
+    description: (
+      <>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
       </>
     ),
   },

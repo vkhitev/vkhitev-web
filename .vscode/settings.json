@@ -29,5 +29,9 @@
   "eslint.format.enable": true,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "cSpell.words": [
+    "Khitev",
+    "vkhitev"
+  ]
 }
