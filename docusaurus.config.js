@@ -23,6 +23,7 @@ module.exports = {
           editUrl: 'https://github.com/vkhitev/vkhitev-web/edit/main/docs/',
         },
         blog: {
+          path: 'blog',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/vkhitev/vkhitev-web/edit/main/blog/',
@@ -51,13 +52,13 @@ module.exports = {
             label: 'Tutorial',
           },
           {
-            to: '/blog',
+            to: 'blog',
             label: 'Blog',
             position: 'left',
           },
           {
-            to: '/contact',
-            label: 'Contact',
+            href: 'https://github.com/vkhitev/vkhitev-web',
+            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -70,11 +71,11 @@ module.exports = {
             items: [
               {
                 label: 'Blog',
-                to: '/docs/intro',
+                to: '/blog',
               },
               {
                 label: 'About',
-                to: '/docs/intro',
+                to: '/about',
               },
               {
                 label: 'Contact',

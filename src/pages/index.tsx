@@ -12,9 +12,9 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <div class="avatar avatar--vertical margin-bottom--md">
+        <div className="avatar avatar--vertical margin-bottom--md">
           <img
-            class={clsx('avatar__photo avatar__photo--xl', styles.avatar)}
+            className={clsx('avatar__photo avatar__photo--xl', styles.avatar)}
             src="https://media-exp1.licdn.com/dms/image/C4E03AQFIJTYzBY7xfg/profile-displayphoto-shrink_800_800/0/1599642100884?e=1638403200&v=beta&t=V7zG5-Hxt4BT55LmuXmzmWtDu_P_psjt-YdY8UgOc64"
             alt=""
           />
@@ -46,7 +46,7 @@ function HomepageHeader() {
   )
 }
 
-export default function Home() {
+export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
