@@ -1,0 +1,33 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript, javascriptreact, typescript, typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.exclude": {
+    "**/node_modules": true,
+    ".docusaurus": true,
+    "build": true,
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "javascript.validate.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.enable": true,
+  "eslint.format.enable": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
