@@ -2,7 +2,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Vlad Khitev',
-  tagline: 'Software Engineer | Head of Front-End Chapter at Axon',
+  tagline: 'Software Engineer',
   url: 'https://vkhitev.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -54,6 +54,11 @@ module.exports = {
           {
             to: 'blog',
             label: 'Blog',
+            position: 'left',
+          },
+          {
+            to: 'about',
+            label: 'About',
             position: 'left',
           },
           {

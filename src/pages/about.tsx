@@ -13,9 +13,7 @@ const About = () => {
           fontSize: '20px',
         }}
       >
-        <p>
-          Edit <code>pages/hello.js</code> and save to reload.
-        </p>
+        <p>Hello, I'm Vlad.</p>
       </div>
     </Layout>
   )

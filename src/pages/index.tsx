@@ -21,23 +21,13 @@ function HomepageHeader() {
         </div>
 
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">
-          Software Engineer | Head of Front-End Chapter at{' '}
-          <a
-            href="https://www.axon.dev/"
-            className={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Axon
-          </a>
-        </p>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--lg" to="/docs/intro">
             Blog
           </Link>
 
-          <Link className="button button--lg" to="/docs/intro">
+          <Link className="button button--lg" to="/about">
             About
           </Link>
         </div>
