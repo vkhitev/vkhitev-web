@@ -5,99 +5,45 @@ import styles from './HomepageFeatures.module.css'
 type FeatureItem = {
   title: string
   image: string
-  description: JSX.Element
+  description?: JSX.Element
 }
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Software development',
+    title: 'Software Development',
     image: '/img/undraw_programming.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
   },
   {
-    title: 'Music',
-    image: '/img/undraw_compose_music.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
-  },
-  {
-    title: 'Sport',
-    image: '/img/undraw_healthy_habit.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
-  },
-  {
-    title: 'Traveling',
-    image: '/img/undraw_adventure.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
-  },
-  {
-    title: 'Mathematics',
+    title: 'Computer Science',
     image: '/img/undraw_mathematics.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
-  },
-  {
-    title: 'Healthy lifestyle',
-    image: '/img/undraw_meditation.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
-  },
-  {
-    title: 'Reading',
-    image: '/img/undraw_book_lover.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
   },
   {
     title: 'Writing',
     image: '/img/undraw_typewriter.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
+  },
+  {
+    title: 'Music',
+    image: '/img/undraw_compose_music.svg',
+  },
+  {
+    title: 'Sport',
+    image: '/img/undraw_healthy_habit.svg',
+  },
+  {
+    title: 'Traveling',
+    image: '/img/undraw_adventure.svg',
+  },
+  {
+    title: 'Healthy Lifestyle',
+    image: '/img/undraw_meditation.svg',
+  },
+  {
+    title: 'Reading',
+    image: '/img/undraw_book_lover.svg',
   },
   {
     title: 'Teaching',
     image: '/img/undraw_teaching.svg',
-    description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </>
-    ),
   },
 ]
 
@@ -109,7 +55,7 @@ function Feature({ title, image, description }: FeatureItem) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        {description && <p>{description}</p>}
       </div>
     </div>
   )
